@@ -32,7 +32,7 @@ on:
           - '8'
           - '9'
           - '10'
-        default: '2'
+        default: true
       delay_between_devices:
         description: 'Delay Between Devices'
         required: true
@@ -62,12 +62,12 @@ on:
         description: 'Installs'
         required: true
         type: string
-        default: '2'
+        default: '20'
       num_clicks:
         description: 'Clicks'
         required: true
         type: string
-        default: '00'
+        default: '300'
       software_choice:
         description: 'Software & Link'
         required: true
@@ -95,7 +95,7 @@ on:
         description: 'ScrapeOps / FloppyData / BytesFlow / Manual'
         required: false
         type: string
-        default: 'u-comCySKe:kKLrQmnU@p1.bytesflows.com:8001'
+        default: 'u-3g4yfERl:KCbI0QYT@p1.bytesflows.com:8001'
       use_without_proxy:
         description: 'Use Without Proxy'
         required: true
