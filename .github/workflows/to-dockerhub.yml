@@ -67,7 +67,7 @@ on:
         description: 'Clicks'
         required: true
         type: string
-        default: '85'
+        default: '86'
       software_choice:
         description: 'Software & Link'
         required: true
@@ -95,7 +95,7 @@ on:
         description: 'ScrapeOps / FloppyData / BytesFlow / Manual'
         required: false
         type: string
-        default: 'u-4zRag886:eUnMurbi@p1.bytesflows.com:8001'
+        default: 'u-DYkSu8C5:FKsQs6gq@p1.bytesflows.com:8001'
       use_without_proxy:
         description: 'Use Without Proxy'
         required: true
