@@ -95,7 +95,7 @@ on:
         description: 'ScrapeOps / FloppyData / BytesFlow / Manual'
         required: false
         type: string
-        default: 'u-DQVhUdUf:wblbYjtI@p1.bytesflows.com:8001'
+        default: 'u-h8SRSTzi:ZHeHgRuF@p1.bytesflows.com:8001'
       use_without_proxy:
         description: 'Use Without Proxy'
         required: true
