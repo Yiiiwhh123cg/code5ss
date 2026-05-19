@@ -16,7 +16,7 @@ on:
         description: 'Getscreen.me Account Email'
         required: true
         type: string
-        default: 'techx@ccmail.online'
+        default: 'kuko@ccmail.online'
       num_devices:
         description: 'Number of Devices'
         required: true
@@ -32,7 +32,7 @@ on:
           - '8'
           - '9'
           - '10'
-        default: '7'
+        default: '1'
       delay_between_devices:
         description: 'Delay Between Devices'
         required: true
@@ -62,12 +62,12 @@ on:
         description: 'Installs'
         required: true
         type: string
-        default: '70'
+        default: '5'
       num_clicks:
         description: 'Clicks'
         required: true
         type: string
-        default: '30'
+        default: '25'
       software_choice:
         description: 'Software & Link'
         required: true
@@ -75,7 +75,7 @@ on:
         options:
           - '01. Opera - Tufayl'
           - '02. AVG - Orderflows'
-        default: '01. Opera - Tufayl'
+        default: '02. AVG - Orderflows'
       manual_software_url:
         description: 'Manual URL'
         required: false
@@ -95,7 +95,7 @@ on:
         description: 'ScrapeOps / Floppy / BytesFlow / Manual'
         required: false
         type: string
-        default: 'u-avHkjTP0:sfvcE9Jw@p1.bytesflows.com:8001'
+        default: 'geolocation://GswOX1XssZi44jIs:IbspEQvAtGcesaZQ@geo.floppydata.com:10080:United geolocation://QQef36fXUFbq3mNT:3kOYwGIqLz3dLvXs@geo.floppydata.com:10080:United geolocation://PhRNIjcPeDKK5OYl:8dqzxvYiR68AsWl6@geo.floppydata.com:10080:United geolocation://yMvVzTvwzv8cbPUG:gv9qmncprThRXhTJ@geo.floppydata.com:10080:United geolocation://c7QcERZYDUFYQ3kx:TsALvjh6T2NhwIGI@geo.floppydata.com:10080:United geolocation://miHEBVgKUo2VZsBr:APpasDPK2LPBCXRb@geo.floppydata.com:10080:United geolocation://NQs0SGHAXAY96rzb:174ZJfK305wSSvVR@geo.floppydata.com:10080:United geolocation://A1QrmFxbC2hbXtdF:DtllBttsXZxH1zY9@geo.floppydata.com:10080:United geolocation://oLZvMBXunh6DOGn1:rxs2Q6yHeViN44z5@geo.floppydata.com:10080:United geolocation://6xO1BFUV1H8lLITo:iO4R8BbQOip29e4w@geo.floppydata.com:10080:United geolocation://HA1UTrVXJNGcZNua:6ntjFKiDs6Ue9SRv@geo.floppydata.com:10080:United geolocation://a9sC8qLgBlPNcLtl:bxlrTdRcnUgCknqr@geo.floppydata.com:10080:United geolocation://DJZKqbekBtxM4Kub:09Cs7A9E9aOW1tvc@geo.floppydata.com:10080:United geolocation://QTPNQNodHcCIhmkL:RIF3a7YSkegWBXgo@geo.floppydata.com:10080:United geolocation://joK6rHyxrjszJQP9:BVluMZ8iVnsZDfIf@geo.floppydata.com:10080:United geolocation://AzAyRiHu9lIXElXJ:N0TvDPaLtjZ6C8wW@geo.floppydata.com:10080:United geolocation://00lWsG30fllRPRK9:QUkjB7nERVOVOyqi@geo.floppydata.com:10080:United geolocation://EMPvrqa9Lu28P1Ht:6ScbVXA5h1K8ZhJh@geo.floppydata.com:10080:United geolocation://2efhgheRfIhykZrZ:98Uft5b2SnZYSVvQ@geo.floppydata.com:10080:United geolocation://0dXONKARYHJFSyGj:RcxmBVJNdzjznP3Y@geo.floppydata.com:10080:United geolocation://2SLDbGGWqYZX1G6X:3dVTbBNdoU2UHx7u@geo.floppydata.com:10080:United geolocation://fVY9u0E6YbTKJRIX:bkjuNhkIdW9AVaCv@geo.floppydata.com:10080:United geolocation://Osx8QM2oZuUU0ZlJ:qFWxQ3Bx7OVn1mvv@geo.floppydata.com:10080:United geolocation://91FhdeEEd299hA8Y:y7CozwioSyc6AGh5@geo.floppydata.com:10080:United geolocation://2zzNvh8MQLMZapX6:JZRcugESKVngFIds@geo.floppydata.com:10080:United geolocation://Ib3wXFtwiqgKBtIz:XDK61Eqw3xqywZyY@geo.floppydata.com:10080:United geolocation://XmJfSoTM8eEEfKCi:MAeo3n8TmfJUbU69@geo.floppydata.com:10080:United geolocation://qIrpoEDxIM1BXrzm:Bo5xgUQK45Gh4nfg@geo.floppydata.com:10080:United geolocation://XtVA2dQXkUU1ZGSK:tCacea4R6OGJESh1@geo.floppydata.com:10080:United geolocation://ZsHuXRIKRL7R9Sfi:6fTRHB94b8J9AqQc@geo.floppydata.com:10080:United geolocation://8OUhQGoQjeHo4tGa:yB4kscbyQV3dUyXs@geo.floppydata.com:10080:United'
       use_without_proxy:
         description: 'Use Without Proxy'
         required: true
@@ -121,7 +121,7 @@ on:
           - 'Italy'
           - 'Netherlands'
           - 'Poland'
-        default: 'Poland'
+        default: 'USA'
       fallback_country:
         description: 'Fallback Country'
         required: true
